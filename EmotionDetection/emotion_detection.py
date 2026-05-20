@@ -23,7 +23,6 @@ def emotion_detector(text_to_analyze):
         emotion_dict = {"anger": None, "disgust": None,
                         "fear": None, "joy": None,
                         "sadness": None, "dominant_emotion": None}
-        
         return emotion_dict
     
     # case where the text entry is valid - process response
